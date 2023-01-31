@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Merriweather&family=Montserrat&family=Poppins&family=Roboto&family=Roboto+Mono&family=Sacramento&display=swap');
+/* Typography */ 
+
+
+html {
+    font-family: 'Fira Sans', sans-serif; 
+}
+
+h1, h2, h3 {
+    font-weight: 600; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,h2{
+    color: #39B5E0;
+}
+
+p {
+    font-weight: 300; 
+    line-height: 18px; 
+}
+
+p,td,th,a,li{
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+.wrapper nav{
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+#features div h3{
+    background-color: #0081B4;
+    text-align: center;
+}
+
+
+.flex div+div p{
+    line-height: 1.5em;
+}
+
+
+
+
+/* Layout */ 
+
+.wrapper {
+    width: 80%; 
+    margin: 0 auto; 
+}
+
+.flex {
+    display:flex;
+    gap: 32px;  
+}
+
+#features > div {
+    flex: 1; 
+}
+
+img {
+    max-height: 300px; 
+    width: auto; 
+}
+
+main section {
+    padding: 60px 20px 0 20px; 
+}
+
+
+
+
+/*Table*/
+#playlist table tbody tr td{
+    line-height: 1.5em;
+    padding: 0.2em;
+}
+
+#playlist table thead tr th{
+    background-color: #0081B4;
+    color: #fff;
+}
+
+#playlist table tbody tr:nth-of-type(even){
+    background-color: #39B5E0;
+    color: #fff;
+} 
+
+.flex div table tr th{
+    background-color: #39B5E0 ;
+}
+
+.flex div table tr td{
+    background-color: #0081B4;
+    width: 40%;
+    text-align: center;
+}
+
+
+
+
+/*links*/
+.wrapper nav a:hover{
+    color: #0081B4;
+    font-size: 1.3em;
+    background-color:#B9F3FC ;
+}
+
+a{
+    text-decoration: none;
+    color: #39B5E0;
+    
+}
+
+.wrapper nav a{
+    padding: 1em;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #39B5E0;
+    margin-top: 10px;
+}
+
+/*List*/
+
+.flex ul li:nth-of-type(odd){
+    background-color: #39B5E0;
+}
+
+.flex ol li:nth-of-type(odd){
+    background-color: #39B5E0;
+}
